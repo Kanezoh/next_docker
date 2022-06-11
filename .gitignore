@@ -1,0 +1,35 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+beta/node_modules
+beta/.pnp
+beta/.pnp.js
+
+# testing
+beta/coverage
+
+# next.js
+beta/.next/
+beta/out/
+
+# production
+beta/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+beta/npm-debug.log*
+beta/yarn-debug.log*
+beta/yarn-error.log*
+beta/.pnpm-debug.log*
+
+# local env files
+beta/.env*.local
+
+# vercel
+beta/.vercel
+
+# typescript
+beta/*.tsbuildinfo
